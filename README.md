@@ -56,3 +56,8 @@ Built a simulated help desk environment using Spiceworks Cloud Help Desk.
 ## Tools Used
 Spiceworks Cloud Help Desk
 Windows 11 Virtual Machine
+
+## Lessons Learned
+- Importance of disabling inheritance for department isolation
+- Difference between NTFS and Share permissions
+- Real-world troubleshooting using access denied scenarios
