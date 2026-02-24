@@ -1,4 +1,4 @@
-# it-homelab-projects
+# IT Homelab Projects
 IT Support/Help Desk Technician labs: Spiceworks ticketing system + Windows file server permissions
 
 # 1. Windows File Server RBAC Lab
