@@ -30,3 +30,15 @@ Configured permissions so users could only access their assigned department.
 Windows 11 VM (UTM)
 Computer Management
 NTFS Security Permissions
+
+## Screenshots
+
+## 👥 User and Group Creation
+![Users]([image-link](https://github.com/adamghueder/it-homelab-projects/blob/main/Windows-File-Server-RBAC/screenshots/Windows-File-Server-RBAC.1.png?raw=true))
+
+## 📁 Shared Folder Configuration
+![Share](image-link)
+
+## 🚫 Access Denied Validation
+![Access Denied](image-link)
+
