@@ -1,17 +1,25 @@
 # Windows File Server RBAC Lab
 
 ## Overview
-Simulated a corporate shared drive environment using a Windows 11 virtual machine.
+This project simulates a corporate shared drive using a Windows 11 virtual machine.
+I configured department-based access control using security groups, NTFS permissions, and shared folders.
 
-## Skills Demonstrated
-- User and Group Management
+The goal was to practice real-world Help Desk and Junior System Administration tasks such as user management, permission troubleshooting, and access validation.
+
+---
+
+## Technologies Used
+- Windows 11 Virtual Machine (UTM on Apple Silicon)
+- Local Users and Groups
 - NTFS Permissions
+- SMB Network Share (\\localhost)
 - Role-Based Access Control (RBAC)
-- Shared Folder Configuration (\\localhost)
-- Access Testing & Troubleshooting
 
-## What I Built
-Created departmental folders:
+---
+
+## 👥 User & Group Setup
+Created simulated company departments:
+
 - HR
 - Finance
 - Marketing
@@ -19,26 +27,26 @@ Created departmental folders:
 - Accounting
 - Customer Support
 
-Configured permissions so users could only access their assigned department.
+Each user was assigned to a security group to enforce least-privilege access.
 
-## Testing Performed
-- Verified HR could create files in HR folder
-- Verified Finance access was denied for HR users
-- Tested permissions via network share path
+![Users and Groups](PASTE-USER-SCREENSHOT-LINK)
 
-## Tools Used
-Windows 11 VM (UTM)
-Computer Management
-NTFS Security Permissions
+---
 
-## Screenshots
-
-## 👥 User and Group Creation
-![Users]([image-link](https://github.com/adamghueder/it-homelab-projects/blob/main/Windows-File-Server-RBAC/screenshots/Windows-File-Server-RBAC.1.png?raw=true))
+## 📁 Shared Folder Structure
+Created a centralized company share:
 
 ## 📁 Shared Folder Configuration
-![Share](image-link)
+C:\CompanyShare
+├── HR
+├── Finance
+├── Marketing
+├── Operations
+├── Accounting
+└── CustomerSupport
+
+![Share]([image-link](https://github.com/adamghueder/it-homelab-projects/blob/main/Windows-File-Server-RBAC/screenshots/Windows-File-Server-RBAC.1.png?raw=true))
 
 ## 🚫 Access Denied Validation
-![Access Denied](image-link)
+![Access Denied]([image-link](https://github.com/adamghueder/it-homelab-projects/blob/main/Windows-File-Server-RBAC/screenshots/Windows-File-Server-RBAC.10.png?raw=true))
 
