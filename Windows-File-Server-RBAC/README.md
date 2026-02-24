@@ -1,10 +1,19 @@
 # Windows File Server RBAC Lab
 
 ## Overview
-This project simulates a corporate shared drive using a Windows 11 virtual machine.
-I configured department-based access control using security groups, NTFS permissions, and shared folders.
+This lab demonstrates the implementation of Role-Based Access Control (RBAC) within a Windows file server environment using a Windows 11 virtual machine.
 
-The goal was to practice real-world Help Desk and Junior System Administration tasks such as user management, permission troubleshooting, and access validation.
+A simulated corporate shared drive was created with department-based access restrictions using security groups, NTFS permissions, and SMB share permissions. The objective was to replicate real-world Help Desk and Junior System Administration responsibilities such as user provisioning, permission management, access troubleshooting, and validation testing.
+
+---
+
+## Key Skills Demonstrated
+- User and Group Administration
+- NTFS Permission Management
+- SMB Share Configuration
+- Least-Privilege Access Design
+- Access Control Validation & Testing
+- Help Desk Troubleshooting Methodology
 
 ---
 
@@ -12,7 +21,7 @@ The goal was to practice real-world Help Desk and Junior System Administration t
 - Windows 11 Virtual Machine (UTM on Apple Silicon)
 - Local Users and Groups
 - NTFS Permissions
-- SMB Network Share (\\localhost)
+- SMB Network Share (`\\localhost`)
 - Role-Based Access Control (RBAC)
 
 ---
@@ -27,14 +36,26 @@ Created simulated company departments:
 - Accounting
 - Customer Support
 
-Each user was assigned to a security group to enforce least-privilege access.
+Each user account was placed into a department-based security group to enforce least-privilege access across shared resources.
+
+---
+
 ## Project Screenshots
 
 ### Company Share Structure
 ![CompanyShare](screenshots/Windows-File-Server-RBAC.1.png)
 
-### HR Permissions
-![HR Permissions](screenshots/hr-permissions.png)
+### Security Group Configuration
+![Group Setup](screenshots/Windows-File-Server-RBAC.4.png)
 
-### Finance Access Test
-![Finance Access](screenshots/finance-test.png)
+### NTFS Permission Configuration
+![NTFS Permissions](screenshots/Windows-File-Server-RBAC.5.png)
+
+### Share Permission Configuration
+![Share Permissions](screenshots/Windows-File-Server-RBAC.6.png)
+
+### Access Denied Validation Test
+![Access Denied](screenshots/Windows-File-Server-RBAC.10.png)
+
+### Authorized Access Validation
+![Authorized Access](screenshots/Windows-File-Server-RBAC.11.png)
