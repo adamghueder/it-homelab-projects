@@ -1,6 +1,7 @@
 # it-homelab-projects
 Entry-level IT support labs: Spiceworks ticketing system + Windows file server permissions
-# Windows File Server RBAC Lab
+
+# 1. Windows File Server RBAC Lab
 
 ## Overview
 Simulated a corporate shared drive environment using a Windows 11 virtual machine.
@@ -32,3 +33,26 @@ Configured permissions so users could only access their assigned department.
 Windows 11 VM (UTM)
 Computer Management
 NTFS Security Permissions
+
+
+# 2. Spiceworks Help Desk Simulation
+
+## Overview
+Built a simulated help desk environment using Spiceworks Cloud Help Desk.
+
+## Skills Demonstrated
+- Ticket Lifecycle Management
+- Incident Categorization
+- Troubleshooting Documentation
+- Help Desk Workflow Simulation
+
+## Tickets Created
+- Password Reset
+- Printer Offline
+- Slow Computer Performance
+- VPN Connectivity Issue
+- Email Sync Issue
+
+## Tools Used
+Spiceworks Cloud Help Desk
+Windows 11 Virtual Machine
