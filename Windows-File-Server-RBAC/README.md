@@ -43,7 +43,7 @@ Each user account was placed into a department-based security group to enforce l
 ## Project Screenshots
 
 ### Company Share Structure
-![CompanyShare](screenshots/01-companyshare-root-folder-created.png)
+![CompanyShare](screenshots/01-companyshare-root-folder-created)
 
 ### Security Group Configuration
 ![Group Setup](screenshots/04-hr-group-membership-assignmentpng)
