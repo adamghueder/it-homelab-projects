@@ -5,6 +5,10 @@ This lab demonstrates the implementation of Role-Based Access Control (RBAC) wit
 
 A simulated corporate shared drive was created with department-based access restrictions using security groups, NTFS permissions, and SMB share permissions. The objective was to replicate real-world Help Desk and Junior System Administration responsibilities such as user provisioning, permission management, access troubleshooting, and validation testing.
 
+## Real-World Scenario
+This lab simulates how corporate IT departments manage shared file access using least-privilege security principles. 
+
+In real environments, improper NTFS or share permissions can expose sensitive HR or Finance data. This project demonstrates how role-based access control prevents unauthorized access while allowing departments to collaborate securely.
 ---
 
 ## Key Skills Demonstrated
