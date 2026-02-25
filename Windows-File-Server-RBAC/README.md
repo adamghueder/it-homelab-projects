@@ -46,16 +46,16 @@ Each user account was placed into a department-based security group to enforce l
 ![CompanyShare](screenshots/01-companyshare-root-folder-created)
 
 ### Security Group Configuration
-![Group Setup](screenshots/04-hr-group-membership-assignmentpng)
+![Group Setup](screenshots/03-security-groups-created-local-users-and-groups)
 
 ### NTFS Permission Configuration
-![NTFS Permissions](screenshots/06-companyshare-share-permissions-configured.png)
+![NTFS Permissions](screenshots/04-hr-group-membership-assignment)
 
 ### Share Permission Configuration
-![Share Permissions](screenshots/Windows-File-Server-RBAC.6.png)
+![Share Permissions](screenshots/06-companyshare-share-permissions-configured)
 
 ### Access Denied Validation Test
-![Access Denied](screenshots/10-rbac-access-denied-hr-user-blocked-from-finance.png)
+![Access Denied](screenshots/10-rbac-access-denied-hr-user-blocked-from-finance)
 
 ### Authorized Access Validation
-![Authorized Access](screenshots/11-rbac-hr-user-successful-write-access.png)
+![Authorized Access](screenshots/11-rbac-hr-user-successful-write-access)
