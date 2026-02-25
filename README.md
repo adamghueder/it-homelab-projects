@@ -1,6 +1,10 @@
 # IT Homelab Projects
 IT Support/Help Desk Technician labs: Spiceworks ticketing system + Windows file server permissions
 
+**Role Simulated:** Help Desk Technician / Junior System Administrator  
+**Environment:** Windows 11 Enterprise Lab  
+**Focus:** RBAC, NTFS Permissions, Help Desk Workflow
+
 # 1. Windows File Server RBAC Lab
 
 ## Overview
