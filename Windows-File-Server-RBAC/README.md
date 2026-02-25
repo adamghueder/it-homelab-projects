@@ -1,3 +1,7 @@
+**Role Simulated:** Help Desk Technician / Junior System Administrator  
+**Environment:** Windows 11 Enterprise Lab  
+**Focus:** RBAC, NTFS Permissions, Help Desk Workflow
+
 # Windows File Server RBAC Lab
 
 ## Overview
