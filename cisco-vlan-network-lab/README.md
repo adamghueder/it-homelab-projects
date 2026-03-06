@@ -20,6 +20,17 @@ Built a simulated small business network using Cisco Packet Tracer to demonstrat
 
 Router connected to a Layer 2 switch with three VLANs representing different departments.
 
+## Network Topology
+
+```
+            Router
+               |
+            Switch
+        /       |       \
+      PC0      PC1      PC2
+     VLAN10   VLAN20   VLAN30
+       HR      Sales      IT
+```
 
 Three departments were segmented into separate VLANs.
 
@@ -30,14 +41,6 @@ Three departments were segmented into separate VLANs.
 | IT | 30 | 192.168.30.0/24 |
 
 Each VLAN communicates through a Cisco router using subinterfaces.
-
-        Router
-           |
-        Switch
-    /       |       \
-  PC0      PC1      PC2
- VLAN10   VLAN20   VLAN30
-   HR      Sales      IT
 
 ## Devices Used
 
