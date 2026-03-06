@@ -2,33 +2,105 @@
 
 ## Overview
 
-This lab demonstrates deployment and administration of **Active Directory Domain Services (AD DS)** in a virtualized Windows Server environment.
-The project simulates common **IT Help Desk and Junior System Administrator tasks**, including user provisioning, password resets, account unlocks, and group-based access control.
+This lab demonstrates the deployment and administration of **Active Directory Domain Services (AD DS)** in a virtualized Windows Server environment.
 
-## Environment
+The project simulates common **IT Help Desk and Junior System Administrator tasks**, including:
 
-* Windows Server 2022 (Domain Controller)
-* Oracle VirtualBox
-* Windows 11 Host Machine
-* Active Directory Domain: **homelab.local**
+* Domain Controller deployment
+* Organizational Unit (OU) design
+* User provisioning
+* Password reset
+* Account unlock
+* Security group management
+* Role-Based Access Control (RBAC)
 
-## Infrastructure Setup
+All steps were performed in a **Windows Server 2022 lab environment** and documented with screenshots.
 
-Configured a Windows Server 2022 virtual machine and promoted it to a **Domain Controller**.
+---
 
-Key tasks:
+# Environment
 
-* Enabled CPU virtualization
-* Installed VirtualBox hypervisor
-* Created VM **DC01**
-* Installed Windows Server 2022
-* Installed **Active Directory Domain Services**
-* Promoted server to Domain Controller
-* Configured DNS integration
+| Component   | Technology          |
+| ----------- | ------------------- |
+| Host OS     | Windows 11          |
+| Hypervisor  | Oracle VirtualBox   |
+| Server OS   | Windows Server 2022 |
+| Domain      | homelab.local       |
+| Server Name | DC01                |
 
-## Active Directory Configuration
+---
 
-Created Organizational Units to simulate corporate departments:
+# Infrastructure Setup
+
+CPU virtualization was enabled on the host system and a Windows Server virtual machine was created using VirtualBox.
+
+### Virtualization Enabled
+
+![Virtualization Enabled](screenshots/01-virtualization-enabled.png)
+
+### Windows Features Configuration
+
+![Windows Features](screenshots/02-windows-features.png)
+
+### Virtual Machine Hardware Configuration
+
+![VM Hardware Settings](screenshots/06-vm-hardware-settings.png)
+
+---
+
+# Windows Server Deployment
+
+A Windows Server 2022 virtual machine was deployed and configured as the foundation for the domain environment.
+
+### Windows Server Installation
+
+![Windows Server Install](screenshots/09-windows-server-install-start.png)
+
+### Windows Server Desktop
+
+![Windows Server Desktop](screenshots/10-windows-server-desktop.png)
+
+### Local Server Configuration
+
+![Local Server Settings](screenshots/11-local-server-settings.png)
+
+---
+
+# Active Directory Deployment
+
+The **Active Directory Domain Services (AD DS)** role was installed and the server was promoted to a **Domain Controller**.
+
+### Add Roles and Features Wizard
+
+![Add Roles Wizard](screenshots/12-add-roles-wizard.png)
+
+### Active Directory Role Selected
+
+![AD DS Role Selected](screenshots/13-active-directory-role-selected.png)
+
+### Domain Controller Promotion
+
+![New Forest Domain](screenshots/16-new-forest-domain.png)
+
+### Domain Controller Successfully Installed
+
+![Domain Controller Ready](screenshots/22-domain-controller-ready.png)
+
+---
+
+# Active Directory Administration Console
+
+The **Active Directory Users and Computers** management console was used to administer the domain.
+
+![Active Directory Console](screenshots/23-active-directory-console.png)
+
+---
+
+# Organizational Unit Structure
+
+Organizational Units (OUs) were created to simulate a corporate departmental structure.
+
+Departments created:
 
 * IT
 * HR
@@ -36,46 +108,106 @@ Created Organizational Units to simulate corporate departments:
 * Marketing
 * Sales
 
-Users were provisioned in each department OU.
+![Department OUs](screenshots/24-department-ous.png)
 
-Example users:
+---
 
-* John Admin (IT)
-* Sarah Parker (HR)
-* Mike Chen (Finance)
-* Emily Davis (Marketing)
-* David Lopez (Sales)
+# User Provisioning
 
-## Help Desk Ticket Simulations
+User accounts were created within their respective departmental Organizational Units.
 
-### Password Reset
+Example users created:
 
-Simulated user support ticket by resetting the password for **Sarah Parker (HR)**.
+| Name         | Department | Username |
+| ------------ | ---------- | -------- |
+| John Admin   | IT         | jadmin   |
+| Sarah Parker | HR         | sparker  |
+| Mike Chen    | Finance    | mchen    |
+| Emily Davis  | Marketing  | edavis   |
+| David Lopez  | Sales      | dlopez   |
 
-### Account Unlock
+![Users Created](screenshots/25-department-users-created.png)
 
-Simulated account lockout resolution for **Mike Chen (Finance)**.
+---
 
-### Security Group Management
+# Help Desk Ticket Simulations
 
-Created security group **IT_Admins** and added **John Admin** as a member to demonstrate **role-based access control (RBAC)**.
+To simulate real IT support scenarios, several common help desk tasks were performed.
 
-## Skills Demonstrated
+---
 
-* Active Directory Administration
-* Domain Controller Deployment
+## Password Reset
+
+A simulated support ticket was created where **Sarah Parker (HR)** forgot her password.
+
+The password was reset and the user was required to change it at next login.
+
+![Password Reset](screenshots/26-password-reset-ticket.png)
+
+---
+
+## Account Unlock
+
+Another support scenario simulated an account lockout for **Mike Chen (Finance)**.
+
+The account was unlocked through Active Directory.
+
+![Account Unlock](screenshots/28-account-unlock.png)
+
+---
+
+# Security Group Management
+
+A security group was created to demonstrate **Role-Based Access Control (RBAC)**.
+
+### Security Group Created
+
+```
+IT_Admins
+```
+
+User **John Admin** was added to the group to simulate administrative access assignment.
+
+![Security Group Membership](screenshots/29-security-group-membership.png)
+
+---
+
+# Skills Demonstrated
+
+This lab demonstrates the following IT administration skills:
+
+* Windows Server Deployment
+* Active Directory Domain Services (AD DS)
+* Domain Controller Configuration
+* DNS Integration
 * Organizational Unit Design
-* User Account Management
+* User Account Provisioning
 * Password Reset Procedures
 * Account Lockout Resolution
 * Security Group Management
 * Role-Based Access Control (RBAC)
 * Windows Server Administration
 
-## Role Simulated
+---
+
+# Role Simulated
 
 **IT Help Desk Technician / Junior System Administrator**
 
-## Documentation
+---
+
+# Project Documentation
+
+The full deployment process was documented with **29 screenshots**, covering:
+
+* Infrastructure setup
+* Windows Server installation
+* Active Directory deployment
+* Organizational Unit configuration
+* User management
+* Help desk task simulations
+* Security group administration
+
+This project demonstrates hands-on experience with **enterprise identity management systems used in corporate IT environments**.
 
 Full deployment documented with **29 screenshots** covering environment setup, Active Directory installation, and administrative tasks.
