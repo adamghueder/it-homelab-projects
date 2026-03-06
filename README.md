@@ -4,6 +4,27 @@ This repository contains hands-on IT labs demonstrating practical experience wit
 
 These labs simulate common tasks performed by **IT Support Technicians and Junior System Administrators**.
 
+# IT Homelab Architecture
+
+This lab environment simulates a small business IT infrastructure including identity management, file access control, endpoint security, and help desk workflows.
+
+Windows 11 Endpoint
+     │
+     │ Firewall + ICMP testing
+     │
+     ▼
+Domain Controller (Active Directory)
+     │
+     │ User authentication
+     │
+     ▼
+File Server (RBAC permissions)
+     │
+     │ Access control
+     │
+     ▼
+Help Desk Ticket System (Spiceworks)
+
 ---
 
 # Lab Environment
