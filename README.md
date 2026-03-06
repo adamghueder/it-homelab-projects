@@ -7,6 +7,7 @@ These labs simulate common tasks performed by **IT Support Technicians and Junio
 # IT Homelab Architecture
 
 This lab environment simulates a small business IT infrastructure including identity management, file access control, endpoint security, and help desk workflows.
+
 Windows 11 Endpoint
 │
 ├─ Firewall Hardening
