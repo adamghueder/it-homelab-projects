@@ -9,20 +9,23 @@ These labs simulate common tasks performed by **IT Support Technicians and Junio
 This lab environment simulates a small business IT infrastructure including identity management, file access control, endpoint security, and help desk workflows.
 
 Windows 11 Endpoint
-     │
-     │ Firewall + ICMP testing
-     │
-     ▼
-Domain Controller (Active Directory)
-     │
-     │ User authentication
-     │
-     ▼
-File Server (RBAC permissions)
-     │
-     │ Access control
-     │
-     ▼
+│
+├─ Firewall Hardening
+├─ ICMP / Network Testing
+│
+▼
+Active Directory Domain Controller (DC01)
+│
+├─ User Authentication
+├─ Organizational Units
+├─ User Management
+│
+▼
+File Server (RBAC Permissions)
+│
+├─ Departmental Access Control
+│
+▼
 Help Desk Ticket System (Spiceworks)
 
 ---
