@@ -1,67 +1,73 @@
 # IT Homelab Projects
-IT Support/Help Desk Technician labs: Spiceworks ticketing system + Windows file server permissions
 
-**Role Simulated:** Help Desk Technician / Junior System Administrator  
-**Environment:** Windows 11 Enterprise Lab  
-**Focus:** RBAC, NTFS Permissions, Help Desk Workflow
+This repository contains hands-on IT labs demonstrating practical experience with **Windows Server administration, Active Directory, endpoint security, and help desk workflows**.
 
-# 1. Windows File Server RBAC Lab
+These labs simulate common tasks performed by **IT Support Technicians and Junior System Administrators**.
 
-## Overview
-Simulated a corporate shared drive environment using a Windows 11 virtual machine.
+---
 
-## Skills Demonstrated
-- User and Group Management
-- NTFS Permissions
-- Role-Based Access Control (RBAC)
-- Shared Folder Configuration (\\localhost)
-- Access Testing & Troubleshooting
+# Lab Environment
 
-## What I Built
-Created departmental folders:
-- HR
-- Finance
-- Marketing
-- Operations
-- Accounting
-- Customer Support
+* Windows Server 2022
+* Windows 11
+* Oracle VirtualBox
+* Active Directory Domain Services
+* Windows Defender Firewall
+* NTFS Permissions
 
-Configured permissions so users could only access their assigned department.
+---
 
-## Testing Performed
-- Verified HR could create files in HR folder
-- Verified Finance access was denied for HR users
-- Tested permissions via network share path
+# Projects
 
-## Tools Used
-Windows 11 VM (UTM)
-Computer Management
-NTFS Security Permissions
+## Active Directory User Management Lab
 
+Deployed a Windows Server Domain Controller and simulated common IT support tasks.
 
-# 2. Spiceworks Help Desk Simulation
+Skills demonstrated:
 
-## Overview
-Built a simulated help desk environment using Spiceworks Cloud Help Desk.
+* Active Directory Domain Services (AD DS)
+* Organizational Unit structure
+* User provisioning
+* Password resets
+* Account unlock procedures
+* Security group management
 
-## Skills Demonstrated
-- Ticket Lifecycle Management
-- Incident Categorization
-- Troubleshooting Documentation
-- Help Desk Workflow Simulation
+---
 
-## Tickets Created
-- Password Reset
-- Printer Offline
-- Slow Computer Performance
-- VPN Connectivity Issue
-- Email Sync Issue
+## Windows Endpoint Hardening Lab
 
-## Tools Used
-Spiceworks Cloud Help Desk
-Windows 11 Virtual Machine
+Configured Windows security features to simulate endpoint hardening and network troubleshooting.
 
-## Lessons Learned
-- Importance of disabling inheritance for department isolation
-- Difference between NTFS and Share permissions
-- Real-world troubleshooting using access denied scenarios
+Skills demonstrated:
+
+* Windows Defender Firewall configuration
+* ICMP rule management
+* Network connectivity testing
+* Endpoint security validation
+* Command-line troubleshooting
+
+---
+
+## Spiceworks Help Desk Ticketing Lab
+
+Simulated an IT help desk environment using Spiceworks Cloud Help Desk.
+
+Skills demonstrated:
+
+* Ticket lifecycle management
+* Incident categorization
+* Troubleshooting documentation
+* Help desk workflow simulation
+
+---
+
+## Windows File Server RBAC Lab
+
+Simulated a corporate file server with departmental access control.
+
+Skills demonstrated:
+
+* NTFS permissions
+* Shared folder configuration
+* Role-Based Access Control (RBAC)
+* Access testing and troubleshooting
