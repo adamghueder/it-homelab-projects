@@ -61,13 +61,22 @@ Verified successful communication between VLANs using ping.
 
 ## Screenshots
 
-Topology  
-VLAN Configuration  
-Trunk Port Configuration  
-Router Subinterfaces  
-PC IP Configuration  
-Successful Inter-VLAN Ping Test
+### Network Topology
+![Topology](screenshots/01-network-topology.png)
 
+### VLAN Port Assignment
+![VLAN](screenshots/02-vlan-port-assignment.png)
+
+### Router-on-a-Stick Configuration
+![Router](screenshots/03-router-on-a-stick-config.png)
+
+### PC IP Configuration
+![PC0](screenshots/04-PC0-IP-config.png)
+![PC1](screenshots/05-PC1-IP-config.png)
+![PC2](screenshots/06-PC2-IP-config.png)
+
+### Successful Inter-VLAN Ping Test
+![Ping](screenshots/07-inter-vlan-ping-success.png)
 ## Tools Used
 
 Cisco Packet Tracer
