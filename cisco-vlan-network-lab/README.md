@@ -16,6 +16,11 @@ Built a simulated small business network using Cisco Packet Tracer to demonstrat
 
 ## Network Design
 
+## Network Topology
+
+Router connected to a Layer 2 switch with three VLANs representing different departments.
+
+
 Three departments were segmented into separate VLANs.
 
 | Department | VLAN | Network |
@@ -25,6 +30,14 @@ Three departments were segmented into separate VLANs.
 | IT | 30 | 192.168.30.0/24 |
 
 Each VLAN communicates through a Cisco router using subinterfaces.
+
+        Router
+           |
+        Switch
+    /       |       \
+  PC0      PC1      PC2
+ VLAN10   VLAN20   VLAN30
+   HR      Sales      IT
 
 ## Devices Used
 
@@ -74,6 +87,11 @@ Verified successful communication between VLANs using ping.
 ![PC0](screenshots/04-PC0-IP-config.png)
 ![PC1](screenshots/05-PC1-IP-config.png)
 ![PC2](screenshots/06-PC2-IP-config.png)
+
+
+## Resume Bullet
+
+• Built a segmented enterprise-style network in Cisco Packet Tracer implementing VLANs, trunking, router-on-a-stick inter-VLAN routing, and connectivity testing.
 
 ### Successful Inter-VLAN Ping Test
 ![Ping](screenshots/07-inter-vlan-ping-success.png)
